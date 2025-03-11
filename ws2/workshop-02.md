@@ -1,6 +1,6 @@
 # Workshop #2
 
-## Feladat: Statikus oldalak látványának kiegészítése CSS segítségével
+Feladat: Statikus oldalak látványának kiegészítése CSS segítségével
 
 A workshop 01-es feladatban leírt oldalt / oldalakat egészítse ki a megfelelő módon saját CSS, valamint Bootstrap felhasználással.
 
@@ -26,13 +26,13 @@ A fájlok létrehozásakor a következő mappastruktúrát alkalmazza:
         ├── fullstack-fejlesztes.html
         └── mesterseges-intelligencia-alapjai.html
 
-### Saját CSS alkalmazása
+Saját CSS alkalmazása
 
 A `styles` mappában hozza létre a fentebb látható három állományt. A `main.css` feladata, hogy minden olyan stílusleírást, amely egységesen alkalmazandó a teljes alkalmazáson belül, itt foglaljon helyet. Ezen kívül szükséges még a `services.css` valamint a `merch.css` létrehozása, a megfelelő aloldalakhoz tartozóan.
 
 Minden html fájl a `pages` mappán belül kapja meg a `main.css`-t referenciaként. A másik két aloldal ezen túl még kapja meg a saját CSS-üket is.
 
-Találjon ki valamilyen egységes stílust, amelyet minden oldalon szeretne alkalmazni. Ezt kódolja le a `main.css` fájlba.
+## Találjon ki valamilyen egységes stílust, amelyet minden oldalon szeretne alkalmazni. Ezt kódolja le a `main.css` fájlba.
 
 A merch (`merch.html`) aloldalon a következőt szeretnénk látni, ezt kódolja le a `merch.css` fájlba:
 
@@ -65,9 +65,9 @@ Azokhoz az aloldalakhoz, ahova nem került be dedikált stílusleíró fájl, od
     - [input-group](https://getbootstrap.com/docs/5.3/forms/input-group/)
     - [floating-labels](https://getbootstrap.com/docs/5.3/forms/floating-labels/)
 
-### Főoldal
+Főoldal
 
-#### Navigáció
+Navigáció
 
 A navigációs elemeket egészítse ki tetszőlegesen Bootstrap gomb stílussal. Az elemek legyenek középre igazítva. Használható teljes Bootstrap navigációs menüsáv is, de nem kötelező.
 
