@@ -46,7 +46,7 @@ A merch (`merch.html`) aloldalon a következőt szeretnénk látni, ezt kódolja
 
 A szolgáltatások (`services.html`) aloldalon lévő táblázatot "szellősre" formázza meg, illetve legyen a táblázatnak magának egy vastag kerete, a benne található celláknak pedig egy vékonyabb kerete. Amikor az egérmutatót a sor fölé viszi, a teljes sor legyen halvány pirossal kiemelve.
 
-### Bootstrap alkalmazása
+Bootstrap alkalmazása
 
 Azokhoz az aloldalakhoz, ahova nem került be dedikált stílusleíró fájl, oda linkelje be a `main.css` mellett a Bootstrap CSS-ét is. Javasolt az 5.3-as verziót használni. Bootstrap segítségével formázza meg a következőket:
 

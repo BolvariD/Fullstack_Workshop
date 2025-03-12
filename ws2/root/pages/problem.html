@@ -19,20 +19,30 @@
         <a href="problem.html" class="nav-link active">Probléma bejelentés</a>
     </nav>
     <form>
-        <label for="">Email cím:</label>
-        <input type="email" name="" id="" placeholder="yourname@mail.com"><br>
-        <label for="">Kérek értesítést:</label>
-        <input type="checkbox" name="" id=""><br>
-        <select name="dropdown" id="">
-            <option value="">Általános bejelentés</option>
-            <option value="">Pozitív véleményt kívánok tenni</option>
-            <option value="">Panaszt kívánok tenni</option>
-          </select><br>
-        <label for="">Üzenet tárgya:</label>
-        <input type="text"><br>
-        <label for="">Üzenet szövege:</label><br>
-        <textarea name="" id=""></textarea><br>
-        <input type="submit" value="Küldés">
+        <div class="mb-3">
+            <label for="emailInput" class="form-label">Email cím:</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="yourname@mail.com">
+        </div>
+        <div class="mb-3">
+            <input type="checkbox" class="form-check-input" id="notificationInput">
+            <label for="notificationInput" class="form-label">Kérek értesítést</label>
+        </div>
+        <div class="mb-3">
+            <select id="dropdownInput" class="form-select">
+                <option value="">Általános bejelentés</option>
+                <option value="">Pozitív véleményt kívánok tenni</option>
+                <option value="">Panaszt kívánok tenni</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="textInput" class="form-label">Üzenet tárgya:</label>
+            <input type="text" id="textInput" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="textAreaInput" class="form-label">Üzenet szövege:</label>
+            <textarea class="form-control" id="textAreaInput"></textarea>
+        </div>
+        <input type="submit" value="Küldés" class="btn btn-primary">
     </form>
 </body>
 </html>
