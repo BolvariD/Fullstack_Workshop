@@ -8,3 +8,7 @@ body {
     justify-items: center;
     align-items: center;
 }
+
+nav {
+    margin-bottom: 5%;
+}

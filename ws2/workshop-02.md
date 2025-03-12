@@ -32,7 +32,7 @@ A `styles` mappában hozza létre a fentebb látható három állományt. A `mai
 
 Minden html fájl a `pages` mappán belül kapja meg a `main.css`-t referenciaként. A másik két aloldal ezen túl még kapja meg a saját CSS-üket is.
 
-## Találjon ki valamilyen egységes stílust, amelyet minden oldalon szeretne alkalmazni. Ezt kódolja le a `main.css` fájlba.
+Találjon ki valamilyen egységes stílust, amelyet minden oldalon szeretne alkalmazni. Ezt kódolja le a `main.css` fájlba.
 
 A merch (`merch.html`) aloldalon a következőt szeretnénk látni, ezt kódolja le a `merch.css` fájlba:
 
